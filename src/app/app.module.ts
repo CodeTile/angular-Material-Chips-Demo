@@ -6,12 +6,12 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
+import { AngularDetailsComponent } from './angular-details.component';
 import {MaterialModule} from './material-module';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule , MaterialModule],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, AngularDetailsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
